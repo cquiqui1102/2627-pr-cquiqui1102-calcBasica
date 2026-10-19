@@ -62,7 +62,7 @@ def dividir(numero1: float, numero2: float) -> float:
     
     """
     if numero2 != 0:
-        division = numero1 / numero2
+        division: float= numero1 / numero2
         return division
     else:
         return "no válida"
