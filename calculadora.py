@@ -2,21 +2,65 @@
 # suma, resta, multiplicación y división.
 
 def sumar(numero1: float, numero2: float) -> float:
+    """
+    Calcula la suma de los dos números
+
+    Args:
+    numero1: primer número a sumar
+    numero2: segundo número a sumar
+
+    Returns:
+    El resultado de la suma
+    
+    """
     suma: float= numero1 + numero2
     return suma
 
 
 def restar(numero1: float, numero2: float) -> float:
+    """
+    Calcula la resta de los dos números
+
+    Args:
+    numero1: primer número a restar
+    numero2: segundo número a restar
+
+    Returns:
+    El resultado de la resta
+    
+    """
     resta: float= numero1 - numero2
     return resta
 
 
 def multiplicar(numero1: float, numero2: float) -> float:
+    """
+    Calcula la multiplicación de los dos números
+
+    Args:
+    numero1: primer número a multiplicar
+    numero2: segundo número a multiplicar
+
+    Returns:
+    El resultado de la multiplicación
+    
+    """
     multiplicacion: float= numero1 * numero2
     return multiplicacion
 
 
-def dividir(numero1: float, numero2: float) -> float:    
+def dividir(numero1: float, numero2: float) -> float: 
+    """
+    Calcula la división de los dos números, si el divisor es 0 la división no será válida
+
+    Args:
+    numero1: dividendo
+    numero2: divisor
+
+    Returns:
+    El resultado de la división
+    
+    """
     if numero2 != 0:
         division = numero1 / numero2
         return division
@@ -24,7 +68,17 @@ def dividir(numero1: float, numero2: float) -> float:
         return "no válida"
 
 def main():
-    """Función principal"""
+    """
+    Función principal
+    
+    Args:
+    numero1: primer numero para calcular
+    numero2: segundo numero para calcular
+
+    Returns:
+    Suma, Resta, Multiplicación, División
+    
+    """
 
     # Entrada
     numero1 = float(input("Introduzca un primer número: "))
