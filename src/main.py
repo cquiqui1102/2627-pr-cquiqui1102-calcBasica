@@ -13,7 +13,7 @@ def sumar(numero1: float, numero2: float) -> float:
     El resultado de la suma
     
     """
-    suma: float= numero1 + numero2
+    suma: float = numero1 + numero2
     return suma
 
 
@@ -29,7 +29,7 @@ def restar(numero1: float, numero2: float) -> float:
     El resultado de la resta
     
     """
-    resta: float= numero1 - numero2
+    resta: float = numero1 - numero2
     return resta
 
 
@@ -45,7 +45,7 @@ def multiplicar(numero1: float, numero2: float) -> float:
     El resultado de la multiplicación
     
     """
-    multiplicacion: float= numero1 * numero2
+    multiplicacion: float = numero1 * numero2
     return multiplicacion
 
 
@@ -62,7 +62,7 @@ def dividir(numero1: float, numero2: float) -> float:
     
     """
     if numero2 != 0:
-        division: float= numero1 / numero2
+        division: float = numero1 / numero2
         return division
     else:
         return "no válida"
