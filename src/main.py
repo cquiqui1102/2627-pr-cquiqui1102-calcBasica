@@ -102,7 +102,7 @@ def main():
     print(f"Suma: {sumar(numero1, numero2)}")
     print(f"Resta: {restar(numero1, numero2)}")
     print(f"Multiplicación: {multiplicar(numero1, numero2)}")
-    print(f"División: {dividir(numero1, numero2):.4f}")
+    print(f"División: {dividir(numero1, numero2)}")
     
 if __name__ == "__main__":
     main()

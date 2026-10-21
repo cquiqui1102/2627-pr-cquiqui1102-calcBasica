@@ -53,6 +53,6 @@ Entrega en esta tarea de Moodle la **URL** de tu repositorio público de GitHub.
 
 La calculadora funciona perfectamente. Si el divisor es 0, saldrá un mensaje sobre división no válida.
 
-![división válida](imagen/resultado1.png)
+![División válida](imagen/resultado1.png)
 
-![división no válida](imagen/resultado2.png)
+![División no válida](imagen/resultado2.png)
