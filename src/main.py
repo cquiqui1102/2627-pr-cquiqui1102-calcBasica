@@ -77,17 +77,8 @@ def dividir(numero1: float, numero2: float) -> float:
 
 def main():
     """
-    Función principal
-    
-    Args:
-    Primer número para calcular
-    Segundo número para calcular
-    
-    Returns:
-    Suma
-    Resta
-    Multiplicación
-    División
+    Función principal:
+    Solicita al usuario dos números y muestra suma, resta, multiplicación y división.
 
     """
 
