@@ -93,8 +93,8 @@ def main():
 
     # Entrada
 
-    numero1 = float(input())
-    numero2 = float(input())
+    numero1 = float(input("Introduzca el primer número a calcular: "))
+    numero2 = float(input("Introduzca el segundo número a calcular: "))
 
     # Salida
     
@@ -102,7 +102,7 @@ def main():
     print(f"Suma: {sumar(numero1, numero2)}")
     print(f"Resta: {restar(numero1, numero2)}")
     print(f"Multiplicación: {multiplicar(numero1, numero2)}")
-    print(f"División: {dividir(numero1, numero2)}")
+    print(f"División: {dividir(numero1, numero2):.4f}")
     
 if __name__ == "__main__":
     main()
